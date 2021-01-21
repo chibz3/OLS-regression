@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        tax_percent_gdp   R-squared:                       0.189
+Model:                            OLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     1123.
+Date:                Tue, 19 Jan 2021   Prob (F-statistic):          1.84e-221
+Time:                        21:24:37   Log-Likelihood:                -14014.
+No. Observations:                4822   AIC:                         2.803e+04
+Df Residuals:                    4820   BIC:                         2.805e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            1.7040      0.158     10.797      0.000       1.395       2.013
+urban_population     0.0887      0.003     33.507      0.000       0.083       0.094
+==============================================================================
+Omnibus:                      888.992   Durbin-Watson:                   0.113
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2177.536
+Skew:                           1.022   Prob(JB):                         0.00
+Kurtosis:                       5.580   Cond. No.                         148.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
